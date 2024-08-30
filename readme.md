@@ -1,4 +1,4 @@
-<figure><img src="/ISPC_portada.png" alt="logo" style="height: 400px;"></figure>
+<figure><img src="/ISPC_portada.png" alt="logo" style="height: 200px;"></figure>
 
 
 Proyecto: Diseño y Desarrollo de Objetos
