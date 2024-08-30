@@ -64,7 +64,7 @@ Clonar el repositorio:
 
 bash
 Copiar código
-git clone https://github.com/tu_usuario/tu_repositorio.git
+git clone https://github.com/Aubar48/maquina_bordar_py
 cd tu_repositorio
 Ejecutar las pruebas unitarias:
 
