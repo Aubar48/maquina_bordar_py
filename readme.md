@@ -9,11 +9,14 @@ Instrucciones del Proyecto
 1. Selección y Diseño del Objeto
 Objeto Seleccionado: [Maquina_bordar]
 
-Este proyecto se basa en la representación de un objeto [descripción breve del objeto]. Los comportamientos clave definidos para este objeto son:
+Este proyecto se basa en la representación de un objeto [ Este proyecto se basa en la representación de una máquina de bordar, un dispositivo automatizado que realiza bordados complejos en tela mediante la selección de diseños predefinidos y la aplicación de hilos de diversos colores. La máquina gestiona de manera eficiente la creación de patrones bordados, controlando la selección de hilos y el tiempo necesario para completar cada diseño.]. 
+Los comportamientos clave definidos para este objeto son:
 
-[Comportamiento 1]: [Descripción del comportamiento y la lógica de programación involucrada].
-[Comportamiento 2]: [Descripción del comportamiento y la lógica de programación involucrada].
-[Comportamiento 3]: [Descripción del comportamiento y la lógica de programación involucrada].
+[Clase Hilo]: [Esta clase representa los hilos utilizados en el proceso de bordado. Su comportamiento clave incluye la gestión de la cantidad de hilo disponible y el color del hilo. La lógica de programación garantiza que se deduzca la cantidad de hilo utilizado durante cada proceso de bordado, evitando el uso de hilos agotados.].
+<br>
+[Clase Diseño]: [Esta clase maneja los diferentes diseños que la máquina de bordar puede ejecutar. Los comportamientos clave incluyen la definición de la complejidad del diseño y la lista de colores necesarios. La lógica de programación asegura que los diseños se seleccionen y validen de acuerdo con la disponibilidad de hilos y la complejidad deseada.].
+<br>
+[Clase Bordar]: [Esta clase representa el proceso de bordado en sí. Gestiona la ejecución del diseño seleccionado utilizando los hilos disponibles. La lógica de programación incluye la asignación de hilos al diseño, el cálculo del tiempo estimado para completar el bordado, y la actualización de los recursos de hilo tras la finalización del proceso.].
 Además, se incluye un método estándar de definición en la clase, como __str__(self) para proporcionar una representación legible del objeto.
 
 2. Desarrollo Guiado por Pruebas (TDD)
@@ -49,6 +52,7 @@ Sentencias SQL
 Creación de las tablas: Se incluyen las sentencias CREATE TABLE para cada tabla con sus respectivas llaves primarias y foráneas.
 Inserción de datos: Se proporcionan 10 sentencias INSERT con datos de ejemplo.
 Consultas: Se desarrollaron 5 consultas SELECT para obtener información relevante de la base de datos.
+
 4. Documentación y Reflexión en Video
 Se ha creado un video de 180 segundos en el que se explica: https://youtu.be/vDCjr1OwjF4
 
