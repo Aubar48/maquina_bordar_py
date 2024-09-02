@@ -50,7 +50,7 @@ Creación de las tablas: Se incluyen las sentencias CREATE TABLE para cada tabla
 Inserción de datos: Se proporcionan 10 sentencias INSERT con datos de ejemplo.
 Consultas: Se desarrollaron 5 consultas SELECT para obtener información relevante de la base de datos.
 4. Documentación y Reflexión en Video
-Se ha creado un video de 60 segundos en el que se explica:
+Se ha creado un video de 180 segundos en el que se explica: https://youtu.be/vDCjr1OwjF4
 
 Código fuente: Se demuestra cómo se aplican los principios de abstracción y encapsulamiento en la clase desarrollada.
 Experiencia con TDD: Se describe brevemente cómo fue el proceso de desarrollo siguiendo TDD.
