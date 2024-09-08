@@ -18,6 +18,20 @@ def test_iniciar_bordado(maquina_bordar_setup):
     resultado = maquina.iniciar_bordado()
     assert resultado is True
 
+# Prueba para iniciar el bordado sin diseño
+def test_iniciar_bordado_sin_diseño(maquina_bordar_setup):
+    _, hilo_rojo, _, maquina = maquina_bordar_setup
+    maquina.cargar_hilo(hilo_rojo)
+    resultado = maquina.iniciar_bordado()
+    assert resultado is False
+
+# Prueba para iniciar el bordado sin hilo
+def test_iniciar_bordado_sin_hilo(maquina_bordar_setup):
+    _, _, diseño_simple, maquina = maquina_bordar_setup
+    maquina.cargar_diseño(diseño_simple)
+    resultado = maquina.iniciar_bordado()
+    assert resultado is False
+
 # Prueba para cambiar el hilo
 def test_cambiar_hilo(maquina_bordar_setup):
     _, hilo_azul, _, maquina = maquina_bordar_setup
@@ -39,3 +53,4 @@ def test_str(maquina_bordar_setup):
     maquina.cargar_diseño(diseño_simple)
     maquina.cargar_hilo(hilo_rojo)
     assert str(maquina) == "Máquina de Bordar con diseño Flor y hilo rojo"
+
